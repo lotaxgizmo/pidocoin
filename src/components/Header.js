@@ -12,11 +12,9 @@ function Header() {
             <img src={logotxt} alt="" />
 
             <div className="menu  flex-row justify-between hidden lg:flex">
-
                 <a href="#"><img src={about} alt="" className='mx-3' /></a>
                 <a href="#"><img src={com} alt="" className='mx-3' /></a>
                 <a href="#"><img src={pido} alt="" className='mx-3' /></a>
-
             </div>
 
             <div className="btns flex flex-row justify-center itece">

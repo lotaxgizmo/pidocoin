@@ -1,7 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.cdnfonts.com/css/new-bread");
 
 body {
   background-color: #fff6b5;
+  font-family: "New Bread", sans-serif;
 }
