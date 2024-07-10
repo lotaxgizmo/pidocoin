@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import Home from './components/Home'
+import About from './components/About'
+import Pido101 from './components/Pido101'
+import Pidonomics from './components/Pidonomics'
+import Faq from './components/Faq'
+import Footer from './components/Footer'
+import Header from './components/Header'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Home />
+      <About />
+      <Pido101 />
+      <Pidonomics />
+      <Faq />
+      <Footer />
     </div>
   );
 }
