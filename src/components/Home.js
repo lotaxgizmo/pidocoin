@@ -1,5 +1,4 @@
 import React from 'react'
-// import herotxt from '../assets/herotxt.svg'
 import herotxt from '../assets/herotxt.png'
 import bannerimg from '../assets/bannerimg.svg'
 import herobgoverlay from '../assets/herobgoverlay.svg'
@@ -11,15 +10,18 @@ import contractadd from '../assets/contractadd.svg'
 function Home() {
     return (
         <>
-            <div className='flex flex-col lg:flex-row items-center justify-center relative lg:p-24 p-4'>
+            <div className='flex flex-col lg:flex-row items-start justify-center relative lg:px-0 p-4'>
 
 
                 <div className="pido relative flex flex-col justify-center items-center lg:items-start ">
                     <img src={herobgoverlay} alt="" className='-z-10 absolute lg:-top-32' />
                     <img src={herotxt} alt="" />
 
-                    <p className='lg:text-xl my-4 lg:text-left text-center lg:pl-3'>
+                    <p className='lg:text-3xl my-2 lg:text-left text-center lg:pl-3 w-[750px]'>
                         PIDO, THE TWO SWEETEST THINGS IN THE WORLD HAS JOINED FORCES TO BECOME SOMETHING EVEN SWEETER.
+                    </p>
+                    <p className='lg:text-3xl my-2 lg:text-left text-center lg:pl-3 w-[800px] text-[#EE3B23]'>
+                        CONTRACT ADDRESS
                     </p>
 
 

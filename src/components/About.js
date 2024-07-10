@@ -10,6 +10,7 @@ function About() {
         <div className='flex flex-col lg:flex-row items-center justify-center relative'>
 
 
+
             <div className="left lg:w-6/12 p-10">
                 <img src={aboutimg} alt="" />
             </div>
